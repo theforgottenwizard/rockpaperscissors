@@ -18,6 +18,8 @@
 .players{
     width: 100%;
     padding-bottom:36px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .player, .computer{
@@ -53,6 +55,18 @@
     border-radius: 12px;
 }
 
-.computer{
-    margin-top: 48px;
+.display-score-player, .display-score-computer, .display-winner{
+    height: 100px;
+    background-color: white;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.display-winner{
+    display: none;
 }
